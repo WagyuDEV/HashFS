@@ -56,7 +56,7 @@ public class HashedFS {
     /*
      * @return returns the edit distance between 2 provided strings
      */
-    public int compare(String str1, String str2) {
+    private int compare(String str1, String str2) {
         int sum = 0;
         int minLength = Math.min(str1.length(), str2.length());
         
